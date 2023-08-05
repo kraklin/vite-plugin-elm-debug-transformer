@@ -1,0 +1,36 @@
+{
+  "name": "vite-plugin-elm-debug-transformer",
+  "author": "Tomas Latal <tom@tomaslatal.cz>",
+  "version": "0.0.1",
+  "keywords": [
+    "elm",
+    "debug",
+    "console",
+    "parser",
+    "formatter"
+  ],
+  "main": "./dist/main.js",
+  "exports": {
+    ".": {
+      "import": "./dist/main.mjs",
+      "require": "./dist/main.js"
+    }
+  },
+  "module": "./dist/main.mjs",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "vite": "^4.4.0",
+    "elm-debug-transformer": "^1.2.1"
+  },
+  "devDependencies": {
+    "vite": "^4.4.8"
+  }
+}
