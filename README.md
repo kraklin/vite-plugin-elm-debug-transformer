@@ -32,7 +32,7 @@ Plugin is passing options to the [register](https://github.com/kraklin/elm-debug
 | `limit`       | number  | number of message characters after which the parser won't parse the message. (Helpful for bypass the parsing of large datastructures)     | `1 000 000`     |
 | `debug`       | boolean | include original message and parser error with the message                                                                                | `false`         |
 | `simple_mode` | boolean | force output to be in simple object format                                                                                                | `false`         |
-| `theme` | `light`|`dark` | sets theme colour of debug output. It is useful for switching on the dark mode of devtools.                                                                                                | `light`         |
+| `theme` | `light|dark` | sets theme colour of debug output. It is useful for switching on the dark mode of devtools.                                                                                                | `light`         |
 
 
 
