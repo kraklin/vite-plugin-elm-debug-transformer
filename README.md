@@ -1,5 +1,7 @@
 # Vite plugin for Elm Debug Transformer
 
+[![npm version](https://badge.fury.io/js/vite-plugin-elm-debug-transformer.svg)](https://badge.fury.io/js/vite-plugin-elm-debug-transformer)
+
 Vite plugin for adding [Elm Debug transformer](https://github.com/kraklin/elm-debug-transformer) to the index.html page on dev server. 
 
 ## Installation
