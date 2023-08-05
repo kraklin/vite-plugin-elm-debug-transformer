@@ -1,13 +1,15 @@
 {
   "name": "vite-plugin-elm-debug-transformer",
-  "author": "Tomas Latal <tom@tomaslatal.cz>",
   "version": "0.0.1",
+  "author": "Tomas Latal <tom@tomaslatal.cz>",
+  "repository": "https://github.com/kraklin/vite-plugin-elm-debug-transformer",
   "keywords": [
     "elm",
     "debug",
     "console",
     "parser",
-    "formatter"
+    "formatter",
+    "vite"
   ],
   "main": "./dist/main.js",
   "exports": {
